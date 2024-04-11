@@ -1,0 +1,99 @@
+/* -----------------------------body style----------------------------- */
+body {
+  background-color: rgb(27, 26, 26);
+  color: white;
+  background-image: url("/images/background_marvel.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* -----------------------------navbar style----------------------------- */
+.navbar {
+  padding: -20px;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: xxx-large;
+  font-family: cursive;
+  font-weight: 800;
+}
+
+#fav {
+  color: white;
+  margin-left: 0px;
+  font-size: x-large;
+  font-family: cursive;
+  font-weight: 600;
+}
+
+.navbar-brand:hover,
+#fav:hover,
+.call:hover {
+  color: red;
+}
+
+#call {
+  text-decoration: none;
+}
+
+.call {
+  color: white;
+  font-size: x-large;
+  font-family: cursive;
+  font-weight: 600;
+}
+
+/* -----------------------------main section style----------------------------- */
+.homepageMain {
+  margin: 50px;
+  padding-top: 250px;
+}
+
+/* -----------------------------card style----------------------------- */
+.col {
+  width: 40%;
+  margin: 40px;
+}
+
+/* -----------------------------more superhero para style----------------------------- */
+.homepageMain #more {
+  color: white;
+  font-size: xxx-large;
+  font-family: cursive;
+  font-weight: 800;
+  text-align: center;
+}
+
+/* -----------------------------search bar style----------------------------- */
+.homepageMain form {
+  margin-bottom: 20vh;
+}
+
+.searching {
+  position: absolute;
+  margin: auto;
+  transform: translate(50%);
+  z-index: 1;
+  max-height: 30vh;
+  overflow: scroll;
+}
+
+.list-group-item {
+  display: flex;
+}
+
+.list-group-item img {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+/* -----------------------------waiting to find superhero----------------------------- */
+#template2,
+#template3 {
+  margin-top: 20vh;
+  position: absolute;
+  right: 10rem;
+}
