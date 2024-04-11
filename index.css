@@ -2,7 +2,7 @@
 body {
   background-color: rgb(27, 26, 26);
   color: white;
-  background-image: url("images/background_marvel.jpg");
+  background-image: url(images/background_marvel.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
